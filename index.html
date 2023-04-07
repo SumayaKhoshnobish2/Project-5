@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Jana's Jewels</title>
+    <link href="index.css" rel="stylesheet">
+    </head>
+    <body data-new-gr-c-s-check-loaded="14.1102.0" data-gr-ext-installed="">
+    <h2 id="heading">Order Form</h2>
+    
+    <form method="post" action="mailto:janasjewel@isp.com">
+    
+        <p id="subtitle"><b>
+        If you would like to order any jewelry from the 
+        Jana's Jewels Web site, please make your selection 
+        at the order form below and click the submit button to process the order.</b></p>
+        
+        <div id = "personal_info">
+            <fieldset>
+                <legend>Personal Information</legend>
+                    Last Name : <input name="lastname" type="text" size="25">
+                    First Name : <input name="firstname" type="text" size="25">
+                    <br> Street Address: <input name="address" type="text" size="25">
+                    State : <input name="state" type="text" size="25">
+                    Zip : <input name="zip" type="text" size="10">
+                    E-Mail Address : <input name="email" type="text" size="25">
+            </fieldset>
+        </div>
+        <fieldset>
+            <div id = "order_info">
+                <fieldset>
+                    <legend>About Your Order</legend>
+                    Select the type of jewelry that you are interested in purchasing:
+                
+                    <input name="necklaces" type="checkbox" id="necklaces" value="Necklaces">
+                    <label>Necklaces</label>
+
+                    <input name="bracelets" type="checkbox" id = "bracelets" value="Bracelets">
+                    <label for="bracelets">Bracelets</label>
+
+                    <input name="watches" type="checkbox" id = "watches" value="watches">
+                    <label for="necklaces">Watches</label></fieldset>
+                
+            </div>
+            
+            <div id = "card_info">
+                <p>Credit Card Type:</p>
+                <select name="payment">
+                    <option>Visa</option>
+                    <option>MasterCard</option>
+                    <option>American Express</option>
+                </select>
+                <p>
+                Credit card number: 
+                <input name="cardnum" type="text" size="20" maxlength="20">
+                Expiration date:
+                <input name="cardexp" type="text" size="4" maxlength="4">
+                </p>
+            </div>
+        </fieldset>
+
+            <div id = "add_info">
+                <br>
+            <fieldset>
+            <legend>Additional Comments</legend>
+                Would you like to recive our e-mail newsletter with valuable coupons?
+                <input name="newsletter" type="radio" value="yes">Yes
+                <input name="newsletter" type="radio" value="no">No</fielset>
+            </div>
+
+            <div id = "choices">
+                <p>
+                    What other types of jewelry, in addition to these shown, would you be interested in purchasing?
+                    </p><hr><textarea name="other" rows="3" cols="100"></textarea>
+            </div>
+        <p class = "button"><input type="submit" value="Submit"></p>
+        <p class = "button"><input type="reset" value="Reset"></p>
+        
+
+
+
+        <p id="conclusion">Thank you for your order.
+        <br><b>Jana's Jewels</b></p>
+        
+    
+    </form>
+
+</body></html>

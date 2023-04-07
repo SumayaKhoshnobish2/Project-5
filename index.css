@@ -1,0 +1,47 @@
+html{
+    background-image: url("eberhard-grossgasteiger-XAxEp-NKBiQ-unsplash.jpg");
+    font-weight:bold;
+}
+legend {
+    text-align:right;
+}
+input{
+    
+    width : 200px;
+    height: 20px;
+    margin-top : 20px;
+    align-content: right;
+    font-size: 15px;
+}
+
+fieldset{
+    width:auto;
+    height:auto;
+}
+
+#heading{
+    font:"Broadway";
+    color:#330c4e;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+#subtitle {
+    color:#50117d;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}
+#conclusion{
+    color:#50117d;
+}
+.button{
+    text-align: center;
+    font-size: 30px;
+}
+#conclusion{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
